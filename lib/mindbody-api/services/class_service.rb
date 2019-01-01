@@ -8,6 +8,7 @@ module MindBody
       operation :get_class_visits,           required:[:class_id]
       operation :get_class_descriptions
       operation :get_class_schedules
+      operation :get_enrollments
       operation :remove_clients_from_classes
     end
   end
